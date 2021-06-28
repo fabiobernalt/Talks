@@ -34,3 +34,23 @@ The following are the architectural diagramas that describes the implementation
 ## Components Diagram
 ![C4 Components Diagram](https://user-images.githubusercontent.com/56080653/123594279-cbb93400-d7ef-11eb-95fe-1a4cd8072021.png)
 
+### Design decisions
+- Separation of concerns is the main goal of using this Clean Architecture template
+- The API project is using CQRS pattern to split the CRUD logic into Read queries and CUD commands,
+- The API project is also using the mediator pattern to decouple the usage of the queries and commands
+
+### Limitations
+- The GitHub repository contains a raw implementation of a end-to-end application built in React 16.8.6 and ASP.NET Core (.NET 5) with C# language.
+- The SPA application is not fully finished and is not discoverable via links in the UI interface
+- The SPA application has a raw implementation of HTTP request to the API and it lacks the core functionality
+- The docker componse can't mount the frontend application
+
+### Improvements
+- Move to Azure Key Vault the usage of credentials or any sensitive data
+- Asking for user consents when they log in to be contacted by using email
+- Creation of React components to extract common logic
+- UI unit tests
+- API Integration tests
+- API versioning
+- API Rate limit calls
+
