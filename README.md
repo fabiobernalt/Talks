@@ -2,8 +2,8 @@
 
 ## Tech stack
 
-- React: Application based on the ![quickstart](https://auth0.com/docs/quickstart/spa/react/01-login) that logins and contains a simple implementation calls to Auth0 as authentication provider and requests to API server to conventions management 
-- ASP.NET Core: Application based on the ![Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture)
+- React: Application based on the [quickstart](https://auth0.com/docs/quickstart/spa/react/01-login) that logins and contains a simple implementation calls to Auth0 as authentication provider and requests to API server to conventions management 
+- ASP.NET Core: Application based on the [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture)
 
 ## How to use it
 
